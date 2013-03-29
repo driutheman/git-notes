@@ -26,3 +26,6 @@ git stash;git pull;git stash pop
  
 #commit/push with add
 git commit -a -m 'message';git push
+
+#ignore file mode changes.
+git config core.filemode false
