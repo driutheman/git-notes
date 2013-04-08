@@ -30,4 +30,7 @@ git commit -a -m 'message';git push
 #ignore file mode changes.
 git config core.filemode false
 
-#hello world
+#Delete untracked files 
+git clean -f
+#If you want to also remove directories, run
+git clean -f -d
