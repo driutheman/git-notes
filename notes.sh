@@ -34,3 +34,6 @@ git config core.filemode false
 git clean -f
 #If you want to also remove directories, run
 git clean -f -d
+
+#Pushin local branch to remote
+git push origin <experimental_branch_name>
