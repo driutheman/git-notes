@@ -40,3 +40,6 @@ git push origin <experimental_branch_name>
 
 # Show different files between branches
 git diff --name-status master..branch
+
+# Turn on colors in the GIT output
+git config --global color.ui true
