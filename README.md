@@ -1,4 +1,4 @@
-gIt-notes
+Shell notes
 =========
 
-Testing our git workflow with our git cheat sheet
+Working in the shell cheat sheet
