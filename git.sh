@@ -19,10 +19,10 @@ git push origin --tags
 git --git-dir=/path/to/repo/.git pull
  
 # Like svn revert
-git reset --hard ;git pull
+git reset --hard; git pull
  
 # Like svn revert but restores current changes
-git stash;git pull;git stash pop
+git stash; git pull;  git stash pop
  
 # Commit/push with add
 git commit -a -m 'message';git push
@@ -32,6 +32,7 @@ git config core.filemode false
 
 # Delete untracked files 
 git clean -f
+
 #If you want to also remove directories, run
 git clean -f -d
 
@@ -43,3 +44,6 @@ git diff --name-status master..branch
 
 # Turn on colors in the GIT output
 git config --global color.ui true
+
+# Retrospectively add --recursive to a git repo
+git submodule update --init --recursive
