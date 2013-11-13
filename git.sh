@@ -47,3 +47,6 @@ git config --global color.ui true
 
 # Retrospectively add --recursive to a git repo
 git submodule update --init --recursive
+
+# Get current branch name
+git rev-parse --abbrev-ref HEAD
